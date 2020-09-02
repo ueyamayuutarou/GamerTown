@@ -20,7 +20,7 @@ Gamer:Town
 ## 設計書
 
 ### 機能一覧
-https://docs.google.com/spreadsheets/d/1laNJNpanGmtNAXliEO39iq9lNdR9AfvWtYQPx6MuJTY/edit#gid=0
+https://docs.google.com/spreadsheets/d/1laNJNpanGmtNAXliEO39iq9lNdR9AfvWtYQPx6MuJTY/edit?usp=sharing
 
 ## 開発環境
 - OS：Linux(CentOS)
