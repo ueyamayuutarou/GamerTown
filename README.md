@@ -1,24 +1,30 @@
-# README
+# <アプリ名>
+Gamer:Town
+## サイト概要
+ゲームレビュー兼プレイヤー募集サイト
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### サイトテーマ
+ゲーム好きが利用するSNS
 
-Things you may want to cover:
+### テーマを選んだ理由
+私自信がゲームのヘビーユーザーということもありゲーマーの為のSNSがあれば購入前のレビューを知ることができ、ユーザー間でパーティーを組むことができるSNSがあればいいなと思った為。
 
-* Ruby version
+### ターゲットユーザ
+オンライン上で誰かとパーティーを組んでやりたいソロプレイヤー
+ゲーム購入前にゲームの評価を知ってから購入したいユーザー
 
-* System dependencies
+### 主な利用シーン
+オンライン上で誰かとパーティーを組んでやりたい時、投稿されたパーティー募集要項を見てマッチする。
+ゲーム購入前にゲームの評価を知ってから購入したい時。
 
-* Configuration
+## 設計書
 
-* Database creation
+### 機能一覧
+https://docs.google.com/spreadsheets/d/1laNJNpanGmtNAXliEO39iq9lNdR9AfvWtYQPx6MuJTY/edit#gid=0
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- 仮想環境：Vagrant,VirtualBox
