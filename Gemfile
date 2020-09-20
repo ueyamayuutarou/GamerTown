@@ -67,3 +67,16 @@ gem 'dotenv-rails'
 group :production do
   gem 'mysql2'
 end
+
+
+gem 'bootstrap-sass', '~> 3.3.6'
+
+gem 'jquery-rails'
+
+group :development do
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-rspec'
+end
+
