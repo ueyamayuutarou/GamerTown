@@ -1,4 +1,14 @@
 
 
 <h1>投稿一覧</h1>
-<p><%= link_to "メンバーを募集する", posts_path, class: "btn btn-success col-xs-10 col-xs-offset-1" %></p>
+<p><%= link_to "メンバーを募集する", new_post_path, class: "btn btn-success" %></p>
+<% @posts.each do |post| %>
+<%= post.title %>
+<%= post.body %>
+<%= post.created_at %>
+<% end %>
+
+
+
+
+
