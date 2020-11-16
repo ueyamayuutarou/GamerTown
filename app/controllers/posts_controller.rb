@@ -1,13 +1,12 @@
 class PostsController < ApplicationController
   def create
   	@post = Post.new(post_params)
-  	@post.user_id = current_user.id
+  	if @post.user_id = current_user.id
   	@post.save
     redirect_to posts_path(@post), notice: "You have created book successfully."
-
-    # @posts = Post.all
-    # render 'index'
-
+    else
+    render :new
+  end
   end
 
   def index

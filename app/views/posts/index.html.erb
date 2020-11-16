@@ -1,14 +1,16 @@
-
-
-<h1>投稿一覧</h1>
-<p><%= link_to "メンバーを募集する", new_post_path, class: "btn btn-success" %></p>
-<% @posts.each do |post| %>
-<%= post.title %>
-<%= post.body %>
-<%= post.created_at %>
-<% end %>
-
-
-
-
-
+<h1>募集一覧</h1>
+<p>
+    <%= link_to "メンバーを募集する", new_post_path, class: "btn btn-success" %>
+</p>
+<table>
+    <div calss="row">
+        <div class="col-md-4">
+            <% @posts.each do |post| %>
+            <%= post.created_at.strftime('%m/%d %H:%M') %><br>
+            <%= post.user.name %><br>
+            <%= post.title %><br>
+            <%= post.body %><br>
+            <% end %>
+        </div>
+    </div>
+</table>
